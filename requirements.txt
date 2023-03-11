@@ -2,4 +2,5 @@ protobuf==3.20.1
 wandb==0.10.31
 mlflow==1.19
 notebook==6.4.12
+numpy==1.20.3
 pandas==1.2.3
