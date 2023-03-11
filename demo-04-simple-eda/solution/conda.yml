@@ -1,0 +1,12 @@
+name: demo-04
+dependencies:
+  - pip=20.3.3
+  - notebook=6.4.12
+  - seaborn=0.11.1
+  - pandas=1.2.3
+  - pip:
+      - pyarrow==9.0.0
+      - ipywidgets==8.0.1
+      - pandas-profiling==3.2.0
+      - wandb==0.10.31
+      - protobuf==3.20.1
