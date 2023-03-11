@@ -1,0 +1,6 @@
+name: demo-03
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  #TODO
