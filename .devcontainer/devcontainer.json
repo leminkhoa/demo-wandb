@@ -6,6 +6,11 @@
 		"context": "..",
 		"dockerfile": "Dockerfile"
 	},
+	"hostRequirements": {
+		"cpus": 4,
+		"memory": "8gb",
+		"storage": "32gb"
+	},
 	"features": {
 		"ghcr.io/devcontainers/features/conda:1": {
 			"addCondaForge": true,
