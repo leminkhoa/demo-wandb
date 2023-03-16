@@ -1,5 +1,5 @@
-FROM mcr.microsoft.com/devcontainers/miniconda:0-3
-
+FROM mcr.microsoft.com/devcontainers/miniconda:latest
+USER root
 # Set timezone for image
 RUN apt-get install -yq tzdata && \
     ln -fs /usr/share/zoneinfo/Asia/Saigon /etc/localtime && \
