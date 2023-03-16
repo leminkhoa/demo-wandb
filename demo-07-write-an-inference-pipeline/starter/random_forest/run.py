@@ -22,7 +22,7 @@ logger = logging.getLogger()
 
 def go(args):
 
-    run = wandb.init(project="exercise_10", job_type="train")
+    run = wandb.init(project="demo-07", job_type="train")
 
     logger.info("Downloading and reading train artifact")
     train_data_path = run.use_artifact(args.train_data).file()

@@ -11,9 +11,9 @@ logger = logging.getLogger()
 
 def go(args):
 
-    logger.info("Creating run exercise_1")
+    logger.info("Creating run demo-01")
 
-    # Create a W&B run in the project ``exercise_1``. Set the option ``job_type="upload_file"``:
+    # Create a W&B run in the project ``demo-01``. Set the option ``job_type="upload_file"``:
 
     # YOUR CODE HERE
 

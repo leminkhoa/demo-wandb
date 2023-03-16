@@ -11,7 +11,7 @@ logger = logging.getLogger()
 
 def go(args):
 
-    run = wandb.init(project="exercise_5", job_type="process_data")
+    run = wandb.init(project="demo-05", job_type="process_data")
 
     ## YOUR CODE HERE
     pass

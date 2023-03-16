@@ -23,8 +23,8 @@ def go(args):
     logger.info(f"Downloading {args.file_url} ...")
     with tempfile.NamedTemporaryFile(mode='wb+') as fp:
 
-        logger.info("Creating run exercise_2")
-        with wandb.init(project="exercise_2", job_type="download_data") as run:
+        logger.info("Creating run demo-02")
+        with wandb.init(project="demo-02", job_type="download_data") as run:
             # Download the file streaming and write to open temp file
             with requests.get(args.file_url, stream=True) as r:
                 for chunk in r.iter_content(chunk_size=8192):

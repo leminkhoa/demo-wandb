@@ -11,8 +11,8 @@ logger = logging.getLogger()
 
 def go(args):
 
-    logger.info("Creating run in project exercise_1")
-    run = wandb.init(project="exercise_1", job_type="use_file")
+    logger.info("Creating run in project demo-01")
+    run = wandb.init(project="demo-01", job_type="use_file")
 
     logger.info("Getting artifact")
 

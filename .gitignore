@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 
 # Ignore wandb, mlruns and hydra outputs
-*wandb
-*mlruns
-*outputs
-*artifacts
+wandb/
+mlruns/
+outputs/
+artifacts/

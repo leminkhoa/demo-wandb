@@ -31,10 +31,10 @@ In this exercise you will write a script that uploads an artifact to Weights & B
 7. Modify the script ``use_artifact.py``. Instructions are contained within the file.
 8. Run the script:
    ```bash
-   python use_artifact.py --artifact_name exercise_1/zen_of_python:v1
+   python use_artifact.py --artifact_name demo-01/zen_of_python:v1
    ```
    You will see the content of the artifact printed on the screen. Play with the versions and
    check that v0 and v1 differ.
    
-9. Go to W&B, in the Artifacts section, select the artifact ``exercise_1/zen_of_python`` and look
+9. Go to W&B, in the Artifacts section, select the artifact ``demo-01/zen_of_python`` and look
    at the Graph view. You will see your first very simple pipeline.

@@ -1,8 +1,8 @@
 main:
-  project_name: exercise_10
+  project_name: demo-07
   experiment_name: dev
 data:
-  train_data: "exercise_6/data_train.csv:latest"
+  train_data: "demo-06/data_train.csv:latest"
 random_forest:
   n_estimators: 100
   criterion: 'gini'

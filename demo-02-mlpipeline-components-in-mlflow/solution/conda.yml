@@ -1,4 +1,4 @@
-name: download_data
+name: demo-02
 channels:
   - conda-forge
   - defaults

@@ -16,7 +16,7 @@ you need to upload the file to your W&B to track it:
 
 ```bash
 wandb artifact put \
-      --name exercise_4/genres_mod.parquet \
+      --name demo-04/genres_mod.parquet \
       --type raw_data \
       --description "A modified version of the songs dataset" genres_mod.parquet
 ```
@@ -35,10 +35,10 @@ wandb artifact put \
    then create a W&B run.
    NOTE: Remember to add the ``save_source=True`` option to ``wandb.init``
    
-5. Fetch the artifact ``exercise_4/genres_mod.parquet:latest`` using W&B and read it with pandas
+5. Fetch the artifact ``demo-04/genres_mod.parquet:latest`` using W&B and read it with pandas
    HINT: 
    ```python
-   artifact = run.use_artifact("exercise_4/genres_mod.parquet:latest")
+   artifact = run.use_artifact("demo-04/genres_mod.parquet:latest")
    df = pd.read_parquet(artifact.file())
    df.head()
    ```
